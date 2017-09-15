@@ -31,7 +31,7 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   }
   if (cart.length === 1){
-    console.log(`In your cart, you have " ${cart} + "  $${cart[key]}`);
+    console.log(`In your cart, you have " ${cart} + "  $${cart.hasOwnProperty()}`);
 
   }
   if (cart.length === 2){
